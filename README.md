@@ -56,6 +56,9 @@ AttendX-Test-Scripts/
 Notes about verification and evidence
 - I did not run these tests against a live AttendX application. You must run them against your instance and capture screenshots/terminal output for your practical report.
 
+Version control note
+- This README was edited on GitHub to demonstrate a web-based file edit. After this commit, please run `git pull origin main` locally to synchronize your clone with the repository and capture the pull output as evidence for your practical.
+
 If you need, I can:
 - Help you adapt selectors for your application by inspecting pages in a Codespace or if you paste HTML snippets.
 - Guide you through running the tests locally or in GitHub Codespaces and collecting screenshots/terminal logs for the practical report.

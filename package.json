@@ -1,6 +1,7 @@
 {
   "name": "attendx-test-scripts",
   "version": "1.0.0",
+  "type": "module",
   "description": "Playwright tests for the AttendX student attendance app (educational/practical)",
   "private": true,
   "scripts": {

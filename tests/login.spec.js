@@ -6,7 +6,7 @@ import { test, expect } from '@playwright/test';
 // Configure the base URL in playwright.config.js or with the ATTENDX_BASE_URL env var.
 
 test.describe('Student login', () => {
-  test('student can log in and reach the dashboard', async ({ page }) => {
+  test('Student login: valid credentials redirect to dashboard', async ({ page }) => {
     // Assumptions about selectors:
     // - Login page at '/login' or baseURL
     // - Username input: input[name="username"]
