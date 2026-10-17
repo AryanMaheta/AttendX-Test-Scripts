@@ -1,0 +1,14 @@
+{
+  "name": "attendx-test-scripts",
+  "version": "1.0.0",
+  "description": "Playwright tests for the AttendX student attendance app (educational/practical)",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
